@@ -1,0 +1,47 @@
+{
+  "name": "couchdb-view-copy",
+  "version": "0.1.0",
+  "description": "Utility to copy CouchDB views from one database to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/busbud/couchdb-view-copy"
+  },
+  "keywords": [
+    "couchdb",
+    "views",
+    "copy",
+    "replicate"
+  ],
+  "author": "Mike Gradek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/busbud/couchdb-view-copy/issues"
+  },
+  "homepage": "https://github.com/busbud/couchdb-view-copy",
+  "jshintConfig": {
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "freeze": true,
+    "indent": 2,
+    "newcap": true,
+    "quotmark": "single",
+    "maxdepth": 3,
+    "maxstatements": 15,
+    "maxlen": 80,
+    "eqnull": true,
+    "funcscope": true,
+    "node": true
+  },
+  "dependencies": {
+    "async": "^0.8.0",
+    "lodash": "^2.4.1",
+    "request": "^2.34.0",
+    "URIjs": "^1.13.1",
+    "yargs": "^1.2.1"
+  }
+}
