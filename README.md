@@ -18,8 +18,8 @@ Options:
 
 ```sh
 node index.js \
-  --source http:///sourcehost/source-db \
-  --destination http:///destinationhost/destination-db
+  --source http://sourcehost/source-db \
+  --destination http://destinationhost/destination-db
   --warmup
 ```
 
